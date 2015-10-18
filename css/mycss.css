@@ -4,10 +4,74 @@
 	height: 1270px;
 	background-color: #f2f2f2;
 }
-.row1{
+.row1, .row2{
 	width: 645px;
 	margin-left: 130px;
 }
 .h2textcustom {
 	margin-top: 25px; font-size: 16px; font-weight: bold; margin-left: 25px;line-height: 1.35;
+}
+.spantextcustom {
+	display: block;
+	margin-top: -23px;
+	margin-left: 25px;
+	font-size: 10px;
+	font-weight: bold;
+	color:#f5d707;
+}
+.ptextcustom {
+	margin-left: 25px;
+  	font-size: 10px;
+  	line-height: 1.1;
+  	margin-top: 8px
+}
+.h2text2custom {
+	margin-top: 19px; font-size: 13px; font-weight: bold; margin-left: 19px;line-height: 1.35;
+}
+.spantext2custom {
+	display: block;
+	margin-top: -23px;
+	margin-left: 19px;
+	font-size: 9px;
+	font-weight: bold;
+	color:#f5d707;
+}
+.ptext2custom {
+	margin-left: 19px;
+  	font-size: 9.5px;
+  	line-height: 1.1;
+  	margin-top: 8px
+}
+.button1 {
+	margin-left: 25px;
+	margin-top: 30px;
+	color: #f8d100;
+	background-color: #282421;
+	border: 0px;
+	width: 75px;
+	height: 27px;
+	font-size: 10px;
+	border-radius: 5px;
+}
+.button1:hover{
+	opacity: 0.8;
+}
+.button2{
+	color: black;
+	background-color: #f3d906;
+	border: 0px;
+	width: 75px;
+	height: 27px;
+	font-size: 10px;
+	border-radius: 5px;
+	margin-left: 19px;
+}
+.button2:hover{
+	opacity: 0.8;
+}
+.row-image {
+	max-width: 202px;
+	height: 402px;
+	background-color: white;
+	padding-left: 0px;
 }
