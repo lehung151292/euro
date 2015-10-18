@@ -1,0 +1,13 @@
+#section-introduce {
+	width: 901px;
+	margin: 0 auto;
+	height: 1270px;
+	background-color: #f2f2f2;
+}
+.row1{
+	width: 645px;
+	margin-left: 130px;
+}
+.h2textcustom {
+	margin-top: 25px; font-size: 16px; font-weight: bold; margin-left: 25px;line-height: 1.35;
+}
