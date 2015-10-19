@@ -110,3 +110,14 @@
 .carousel-indicators li {
 	background-color:#757575;
 }
+/* ----------------------------------------------------------- */
+#section-contact {
+	height: 255px;
+	width: 901px;
+	margin: 0 auto;
+}
+.contact-menu {
+	background-color: #2a2220;
+	height: 42px;
+	width: 901px;
+}
