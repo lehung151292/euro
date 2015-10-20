@@ -194,13 +194,34 @@
 	text-decoration: none;
 	font-weight: bold;
 }
+.ul2{
+	padding-left: 1px;
+}
 .contact .ul2 ul {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
-	margin-left: 33px;
+	margin-left: 0px;
 }
 .contact .ul2 li {
 	float: left;
 	padding-left: 0;
+}
+.button3 {
+	height: 28px;
+	width: 150px;
+	border: solid 1px #bdaeb1;
+	color: #bdaeb1;
+	background-color: white;
+	font-size: 10px;
+	margin-top: 14px;
+	margin-left: 5px;
+}
+.button3:hover, .button3:focus, .button3:active, .button3:visited{
+	opacity: 0.7;
+	color:#BB6878;
+	border: solid 1px #BB6878 !important;
+}
+.contact .ul2 span {
+	padding-left: 5px;
 }
