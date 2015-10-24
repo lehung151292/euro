@@ -5,21 +5,26 @@
 	background-image: url('../images/consolata4.jpg');
 }
 #consolata nav {
-	min-height: 79px;
+	min-height: 135px;
 }
 .header-wrapper{
 	width: 901px;
-	height: 76px;
+	height: 95px;
+	background: -webkit-linear-gradient(#241c1a, rgba(48, 40, 38, 0.03));
+	background: -o-linear-gradient(#241c1a, rgba(48, 40, 38, 0.03));
+	background: -moz-linear-gradient(#241c1a, rgba(48, 40, 38, 0.03));
+	background: linear-gradient(#241c1a, rgba(48, 40, 38, 0.03));
 }
 .navbar-custom {
 	width: 901px;
-	background: -webkit-linear-gradient(#241c1a,#302826, #4c4442); /* For Safari 5.1 to 6.0 */
-  	background: -o-linear-gradient(#241c1a,#302826, #4c4442); /* For Opera 11.1 to 12.0 */
-  	background: -moz-linear-gradient(#241c1a,#302826, #4c4442); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient(#241c1a,#302826, rgba(35, 30, 29, 0)); /* Standard syntax */
+	background: -webkit-linear-gradient(#241c1a,rgba(56, 47, 45, 0.62), rgba(35, 30, 29, 0)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#241c1a,rgba(56, 47, 45, 0.62), rgba(35, 30, 29, 0)); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#241c1a,rgba(56, 47, 45, 0.62), rgba(35, 30, 29, 0)); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#241c1a,rgba(56, 47, 45, 0.62), rgba(35, 30, 29, 0)); /* Standard syntax */
 	border-color: rgba(54, 25, 25, .00004);
 	border-bottom: 0px rgba(243, 237, 237, 0.03);
     border-radius: 0px;
+    border-top: 0px rgba(243, 237, 237, 0.03);
 }
 .navbar-custom a {
 	text-decoration: none;
@@ -27,22 +32,42 @@
 .navbar-header {
 	width: 220px;
 	margin-left: 75px;
+	float: left
 }
 .header-icon p {
 	color:white;
 	text-align: justify;
 	font-size: 9px;
-	letter-spacing: -0.7px;
+	letter-spacing: -0.5px;
     width: 116px;
     height: 55px;
     float: left;
     padding-top: 20px;
 }
 .header-icon p span {
-	font-size: 25px;
+	font-size: 27px;
 	letter-spacing: 0px;
 	display: block;
 }
+.navbar-right-custom{
+	width: 600px;
+	float: right;
+}
+.navbar-right-custom ul li a {
+	color:white !important;
+	font-size: 11px;
+	padding-top: 8px;
+	height: 34px;
+}
+.navbar-right-custom ul li a:hover {
+	opacity: 0.5;
+}
+#search-icon {
+	background-color: rgba(54, 25, 25, .00004);
+  	border-color: rgba(54, 25, 25, .00004);
+  	width:70px	;
+}
+
 /* ----- */
 #section-introduce {
 	width: 901px;
