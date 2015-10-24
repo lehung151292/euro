@@ -2,7 +2,22 @@
 	width: 901px;
 	margin: 0 auto;
 	height: 524px;
-	background-image: url('../images/consolata4.jpg');
+	position: relative;
+}
+.carousel-header{
+	width: 901px;
+	margin: 0 auto;
+	height: 524px
+}
+.carousel-indicators li{
+	border-color: rgba(243, 237, 237, 0.03);
+	background-color: #68574d !important;
+}
+.carousel-indicators .active {
+	background-color: #f2d323 !important;
+}
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
 }
 #consolata nav {
 	min-height: 135px;
@@ -14,6 +29,8 @@
 	background: -o-linear-gradient(#241c1a, rgba(48, 40, 38, 0.03));
 	background: -moz-linear-gradient(#241c1a, rgba(48, 40, 38, 0.03));
 	background: linear-gradient(#241c1a, rgba(48, 40, 38, 0.03));
+	top: 0px;
+	position: absolute;
 }
 .navbar-custom {
 	width: 901px;
