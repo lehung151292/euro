@@ -25,19 +25,21 @@
 .header-wrapper{
 	width: 901px;
 	height: 95px;
-	background: -webkit-linear-gradient(#241c1a, rgba(48, 40, 38, 0.03));
+/*	background: -webkit-linear-gradient(#241c1a, rgba(48, 40, 38, 0.03));
 	background: -o-linear-gradient(#241c1a, rgba(48, 40, 38, 0.03));
 	background: -moz-linear-gradient(#241c1a, rgba(48, 40, 38, 0.03));
-	background: linear-gradient(#241c1a, rgba(48, 40, 38, 0.03));
+	background: linear-gradient(#241c1a, rgba(48, 40, 38, 0.03));*/
 	top: 0px;
 	position: absolute;
 }
 .navbar-custom {
 	width: 901px;
-	background: -webkit-linear-gradient(#241c1a,rgba(56, 47, 45, 0.62), rgba(35, 30, 29, 0)); /* For Safari 5.1 to 6.0 */
-  	background: -o-linear-gradient(#241c1a,rgba(56, 47, 45, 0.62), rgba(35, 30, 29, 0)); /* For Opera 11.1 to 12.0 */
-  	background: -moz-linear-gradient(#241c1a,rgba(56, 47, 45, 0.62), rgba(35, 30, 29, 0)); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient(#241c1a,rgba(56, 47, 45, 0.62), rgba(35, 30, 29, 0)); /* Standard syntax */
+	background: -moz-linear-gradient(top, rgba(36,28,25,1) 11%, rgba(36,28,25,1) 37%, rgba(96,94,97,0.68) 63%, rgba(181,189,200,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(11%,rgba(36,28,25,1)), color-stop(37%,rgba(36,28,25,1)), color-stop(63%,rgba(96,94,97,1)), color-stop(100%,rgba(181,189,200,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(36,28,25,1) 11%,rgba(36,28,25,1) 37%,rgba(96, 94, 97, 0.68) 63%,rgba(255, 255, 255, 0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(36,28,25,1) 11%,rgba(36,28,25,1) 37%,rgba(96,94,97,0.68) 63%,rgba(181,189,200,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(36,28,25,1) 11%,rgba(36,28,25,1) 37%,rgba(96,94,97,0.68) 63%,rgba(181,189,200,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(36,28,25,1) 11%,rgba(36,28,25,1) 37%,rgba(96,94,97,0.68) 63%,rgba(181,189,200,0) 100%);
 	border-color: rgba(54, 25, 25, .00004);
 	border-bottom: 0px rgba(243, 237, 237, 0.03);
     border-radius: 0px;
@@ -100,9 +102,8 @@
 }
 @media screen and (min-width: 768px){
 .carousel-caption {
-	right: 0%;
-	left: 50%;
-	top: 29%;
+	left: -1.5%;
+	top: 12.5%;
 	font-size: 30px;
     font-family: monospace;
     width: 350px;
@@ -112,16 +113,18 @@
 .carousel-caption p {
 	color:#241c1a;
 }
-.right-wrapper {
+.carousel-wrapper {
     top: 95px;
     right: 0px;
     position: absolute;
     height: 429px;
     width: 50%;
-    background: -webkit-linear-gradient(left, rgba(255,0,0,0), rgba(255,0,0,1)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, rgba(255,0,0,0), rgba(255,0,0,1)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, rgba(255,0,0,0), rgba(255,0,0,1)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+	background: -moz-linear-gradient(-45deg, rgba(247,247,247,0) 0%, rgba(252,252,252,0.69) 37%, rgba(255,255,255,0.85) 63%, rgba(255,255,255,1) 89%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(37%,rgba(252,252,252,0.69)), color-stop(63%,rgba(255,255,255,0.85)), color-stop(89%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, rgba(247,247,247,0) 0%,rgba(252,252,252,0.69) 37%,rgba(255,255,255,0.85) 63%,rgba(255,255,255,1) 89%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, rgba(247,247,247,0) 0%,rgba(252,252,252,0.69) 37%,rgba(255,255,255,0.85) 63%,rgba(255,255,255,1) 89%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, rgba(247,247,247,0) 0%,rgba(252,252,252,0.69) 37%,rgba(255,255,255,0.85) 63%,rgba(255,255,255,1) 89%); /* IE10+ */
+	background: linear-gradient(135deg, rgba(247,247,247,0) 0%,rgba(252,252,252,0.69) 37%,rgba(255,255,255,0.85) 63%,rgba(255,255,255,1) 89%);
 }
 /* ----- */
 #section-introduce {
