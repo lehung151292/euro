@@ -101,7 +101,7 @@
 	background-color:#FFE50F;
 }
 @media screen and (min-width: 768px){
-.carousel-caption {
+#consolata .carousel-caption {
 	margin-left: 96px;
 	top: 28.5%;
 	font-size: 30px;
